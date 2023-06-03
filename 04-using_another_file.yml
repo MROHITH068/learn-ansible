@@ -1,0 +1,5 @@
+- name: Printing
+  tasks:
+    - name: Load NodeJS
+      ansible.builtin.include_tasks:
+        file: another_file.yml
