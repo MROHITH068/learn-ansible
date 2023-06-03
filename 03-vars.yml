@@ -1,0 +1,5 @@
+- name: Printing
+  vars:
+    URL: example.com
+  ansible.builtin.debug:
+    msg: URL - {{URL}}
